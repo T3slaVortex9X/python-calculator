@@ -30,8 +30,8 @@ def calculator():
             print("Invalid operation")
             return
     try:
-        num1 = float(input("Enter your first number:")
-        num2 = float(input("Enter your second number:")
+        num1 = float(input("Enter your first number:"))
+        num2 = float(input("Enter your second number:"))
     except ValueError:
                      print("Invalid Error!")
                      return
